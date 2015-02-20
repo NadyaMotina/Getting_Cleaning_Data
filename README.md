@@ -14,7 +14,6 @@ The script run_analysis.R:
 Create tables train_data, train_labels, train_subject, test_data, test_labels, test_subject, features and activities.
 
 * 1. Merge the training and the test sets using rbind to create one data set.
-
 * 2. Extract only the measurements on the mean and standard deviation for each measurement.
 
 Search for "mean" and "std" in features column by using grep. Create a vector with indices. Then take merged_data with only these indices.
